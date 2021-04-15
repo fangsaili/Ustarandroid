@@ -1,0 +1,931 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.dcloud.HelloH5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+10
+11    <!-- Barcode(二维码)  begin -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:7:5-65
+12-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:5-81
+13-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:22-78
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:9:5-60
+15-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:10:5-70
+16-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:10:19-67
+17
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:11:5-66
+18-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:11:22-63
+19    <uses-permission android:name="android.permission.FLASHLIGHT" />
+19-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:12:5-69
+19-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:12:22-66
+20    <!-- Barcode(二维码)  end -->
+21
+22    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+22-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:15:5-73
+22-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:15:22-71
+23
+24    <!-- Maps(地图) begin -->
+25    <!-- Maps - 百度地图 begin -->
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:19:5-67
+26-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:19:22-64
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:5-81
+27-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:22-78
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:5-81
+28-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:22-78
+29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+29-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:5-79
+29-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:22-76
+30    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+30-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:23:5-73
+30-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:23:22-70
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:5-79
+31-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:22-76
+32    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+32-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:5-76
+32-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:22-73
+33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+33-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:5-75
+33-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:22-72
+34    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+34-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:27:5-84
+34-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:27:22-81
+35    <uses-permission android:name="android.permission.READ_LOGS" />
+35-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:28:5-68
+35-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:28:22-65
+36    <!-- Maps(地图) end -->
+37
+38
+39    <!-- Push(推送)只能选择一个推送组件 -->
+40    <!-- Push(推送)-MKeyPush begin -->
+41    <!--
+42    <uses-permission android:name="android.permission.INTERNET"/>
+43    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+45    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+46    -->
+47    <!-- Push(推送)-MKeyPush  end -->
+48
+49
+50    <!-- 小米推送 -->
+51    <!--
+52    <uses-permission android:name="android.permission.INTERNET"/>
+53    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+54    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+55    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+56    <uses-permission android:name="android.permission.GET_TASKS"/>
+57    <uses-permission android:name="android.permission.VIBRATE"/>
+58    <uses-permission android:name="android.permission.GET_TASKS"/>
+59    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+60    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO"/>
+61    <uses-permission android:name="com.HBuilder.integrate.permission.MIPUSH_RECEIVE"/>
+62    <permission android:name="com.HBuilder.integrate.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+63    -->
+64    <!-- 小米推送 end -->
+65
+66
+67    <!-- Share(分享)  begin -->
+68    <!-- Share - 新浪微博分享 -->
+69    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+69-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:5-76
+69-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:22-73
+70    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+70-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:5-76
+70-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:22-73
+71    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+71-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:5-79
+71-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:22-76
+72    <!-- Share - 腾讯微博分享 -->
+73    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+73-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:5-79
+73-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:22-76
+74    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+74-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:5-76
+74-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:22-73
+75    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+75-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:5-76
+75-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:22-73
+76    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+76-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:5-81
+76-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:22-78
+77    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+77-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:5-79
+77-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:22-76
+78    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+78-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:70:5-79
+78-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:70:22-76
+79    <!-- Share - 微信分享 -->
+80    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+80-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:72:5-80
+80-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:72:22-77
+81    <!-- Push(推送)   end -->
+82
+83
+84    <!-- Speech(语音识别)  begin -->
+85    <!-- Speech - 讯飞语音云 -->
+86    <uses-permission android:name="android.permission.INTERNET" />
+86-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:19:5-67
+86-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:19:22-64
+87    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+87-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:5-81
+87-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:22-78
+88    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+88-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:80:5-71
+88-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:80:22-68
+89    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+89-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:5-79
+89-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:22-76
+90    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+90-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:5-76
+90-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:22-73
+91    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+91-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:83:5-79
+91-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:83:22-76
+92    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+92-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:5-75
+92-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:22-72
+93    <!-- Speech(语音识别)  end -->
+94
+95
+96    <!-- Statistic(统计)  begin -->
+97    <!-- Statistic - 友盟统计 -->
+98    <uses-permission android:name="android.permission.READ_LOGS" />
+98-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:28:5-68
+98-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:28:22-65
+99    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+99-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:91:5-81
+99-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:91:22-78
+100    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+100-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:92:5-79
+100-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:92:22-76
+101    <!-- Statistic(统计)  end -->
+102
+103
+104    <!-- 小米分享 -->
+105    <uses-permission android:name="com.xiaomi.permission.AUTH_SERVICE" />
+105-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:96:5-74
+105-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:96:22-71
+106
+107    <!-- 蓝牙 ibeacon权限 -->
+108    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+108-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:5-81
+108-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:22-78
+109    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+109-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:5-79
+109-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:22-76
+110    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+110-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:101:5-74
+110-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:101:22-71
+111    <uses-permission android:name="android.permission.BLUETOOTH" />
+111-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:102:5-68
+111-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:102:22-65
+112
+113    <!-- 基座删除的部分权限 -->
+114    <uses-permission android:name="android.permission.GET_TASKS" />
+114-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:105:5-68
+114-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:105:22-65
+115    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+115-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:83:5-79
+115-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:83:22-76
+116    <uses-permission android:name="android.permission.READ_CONTACTS" />
+116-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:107:5-72
+116-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:107:22-69
+117    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+117-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:5-76
+117-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:22-73
+118
+119    <uses-feature android:name="android.hardware.camera.autofocus" />
+119-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:10:5-70
+119-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:10:19-67
+120
+121    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+121-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:110:5-73
+121-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:110:22-70
+122    <uses-permission android:name="android.permission.CAMERA" />
+122-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:7:5-65
+122-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:7:22-62
+123    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+123-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:112:5-71
+123-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:112:22-68
+124    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+124-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:80:5-71
+124-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:80:22-68
+125    <uses-permission android:name="android.permission.SEND_SMS" />
+125-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:114:5-67
+125-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:114:22-64
+126    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+126-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:5-75
+126-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:22-72
+127    <uses-permission android:name="android.permission.FLASHLIGHT" />
+127-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:12:5-69
+127-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:12:22-66
+128
+129    <uses-feature android:name="android.hardware.camera" />
+129-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:9:5-60
+129-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:9:19-57
+130
+131    <uses-permission android:name="android.permission.WRITE_SMS" />
+131-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:118:5-68
+131-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:118:22-65
+132    <uses-permission android:name="android.permission.READ_SMS" />
+132-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:119:5-67
+132-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:119:22-64
+133
+134    <supports-screens
+134-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:9:5-14:39
+135        android:anyDensity="true"
+135-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:10:9-34
+136        android:largeScreens="true"
+136-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:11:9-36
+137        android:normalScreens="true"
+137-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:12:9-37
+138        android:resizeable="true"
+138-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:13:9-34
+139        android:smallScreens="true" />
+139-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:14:9-36
+140    <!--
+141    <uses-permission
+142        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+143    -->
+144    <!-- 华为修改角标需要设置权限 -->
+145    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
+145-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:24:5-91
+145-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:24:22-88
+146    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+146-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:26:5-83
+146-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:26:22-80
+147
+148    <queries>
+148-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:28:5-32:15
+149        <intent>
+149-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:29:9-31:18
+150            <action android:name="android.intent.action.MAIN" />
+150-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:140:17-69
+150-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:140:25-66
+151        </intent>
+152
+153        <package android:name="com.tencent.mm" />
+153-->[oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:10:9-50
+153-->[oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:10:18-47
+154    </queries>
+155
+156    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+157    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+157-->[oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:13:5-76
+157-->[oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:13:22-73
+158    <uses-permission android:name="freemme.permission.msa" />
+158-->[oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:15:5-62
+158-->[oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:15:22-59
+159
+160    <application
+160-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:121:5-341:19
+161        android:name="io.dcloud.application.DCloudApplication"
+161-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:122:9-63
+162        android:allowClearUserData="true"
+162-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:123:9-42
+163        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+163-->[com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+164        android:debuggable="true"
+164-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:127:9-34
+165        android:icon="@drawable/icon"
+165-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:124:9-38
+166        android:label="@string/app_name"
+166-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:125:9-41
+167        android:largeHeap="true"
+167-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:126:9-33
+168        android:supportsRtl="true"
+168-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:166:9-35
+169        android:usesCleartextTraffic="true" >
+169-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:167:9-44
+170        <activity
+170-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:130:9-143:20
+171            android:name="io.dcloud.PandoraEntry"
+171-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:131:13-50
+172            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+172-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:132:13-83
+173            android:hardwareAccelerated="true"
+173-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:135:13-47
+174            android:label="@string/app_name"
+174-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:133:13-45
+175            android:launchMode="singleTask"
+175-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:134:13-44
+176            android:screenOrientation="user"
+176-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:137:13-45
+177            android:theme="@style/TranslucentTheme"
+177-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:136:13-52
+178            android:windowSoftInputMode="adjustResize" >
+178-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:138:13-55
+179            <intent-filter>
+179-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:139:13-142:29
+180                <action android:name="android.intent.action.MAIN" />
+180-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:140:17-69
+180-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:140:25-66
+181
+182                <category android:name="android.intent.category.LAUNCHER" />
+182-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:141:17-77
+182-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:141:27-74
+183            </intent-filter>
+184        </activity>
+185
+186        <!-- Statistic(统计)-友盟统计 begin -->
+187        <!-- 官方网站：http://www.umeng.com/analytics -->
+188        <!-- meta-data节点android:name="UMENG_APPKEY"项中android:value值为友盟网站申请的APPKEY -->
+189        <!-- meta-data节点android:name="UMENG_CHANNEL"项中android:value值为发行渠道标识，可任意取值，用于各种发行渠道效果统计 -->
+190        <meta-data
+190-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:149:9-151:56
+191            android:name="UMENG_APPKEY"
+191-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:150:13-40
+192            android:value="55b1b625e0f55a138300449d" />
+192-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:151:13-53
+193        <meta-data
+193-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:152:9-154:42
+194            android:name="UMENG_CHANNEL"
+194-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:153:13-41
+195            android:value="googleplay" />
+195-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:154:13-39
+196        <!-- 友盟统计  配置  end -->
+197
+198        <provider
+198-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:157:9-165:20
+199            android:name="io.dcloud.common.util.DCloud_FileProvider"
+199-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:158:13-69
+200            android:authorities="io.dcloud.HelloH5.dc.fileprovider"
+200-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:159:13-68
+201            android:exported="false"
+201-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:160:13-37
+202            android:grantUriPermissions="true" >
+202-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:161:13-47
+203            <meta-data
+203-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:162:13-164:64
+204                android:name="android.support.FILE_PROVIDER_PATHS"
+204-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:163:17-67
+205                android:resource="@xml/dcloud_file_provider" />
+205-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:164:17-61
+206        </provider>
+207
+208        <!-- Maps(地图) begin -->
+209        <!-- meta-data节点android:name="com.baidu.lbsapi.API_KEY"项中android:value值为百度地图应用的Appkey -->
+210        <meta-data
+210-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:169:9-171:55
+211            android:name="com.baidu.lbsapi.API_KEY"
+211-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:170:13-52
+212            android:value="u1vrG5cDGQLioX9fezNAdGkR" />
+212-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:171:13-53
+213        <!--  -->
+214        <service
+214-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:173:9-176:40
+215            android:name="com.baidu.location.f"
+215-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:174:13-48
+216            android:enabled="true"
+216-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:175:13-35
+217            android:process=":remote" />
+217-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:176:13-38
+218        <!-- Maps(地图) end -->
+219        <meta-data
+219-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:178:9-179:63
+220            android:name="com.amap.api.v2.apikey"
+220-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:178:20-57
+221            android:value="1245f55df04583e53eb0fbf511be9a08" />
+221-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:179:13-61
+222
+223        <service android:name="com.amap.api.location.APSService" />
+223-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:180:9-68
+223-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:180:18-65
+224
+225        <!-- Oauth 授权登陆 start -->
+226        <!-- Oauth QQ start -->
+227        <!-- QQ 分享 配置和授权登陆相同 -->
+228        <meta-data
+228-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:185:9-187:42
+229            android:name="QQ_APPID"
+229-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:186:13-36
+230            android:value="1104455702" />
+230-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:187:13-39
+231
+232        <activity
+232-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:189:9-201:20
+233            android:name="com.tencent.tauth.AuthActivity"
+233-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:190:13-58
+234            android:launchMode="singleTask"
+234-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:191:13-44
+235            android:noHistory="true" >
+235-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:192:13-37
+236            <intent-filter>
+236-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:193:13-200:29
+237                <action android:name="android.intent.action.VIEW" />
+237-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:17-69
+237-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:25-66
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:17-76
+239-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:27-73
+240                <category android:name="android.intent.category.BROWSABLE" />
+240-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:197:17-78
+240-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:197:27-75
+241
+242                <data android:scheme="1104455702" />
+242-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:17-53
+242-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:23-50
+243            </intent-filter>
+244        </activity>
+245        <activity
+245-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:202:9-205:75
+246            android:name="com.tencent.connect.common.AssistActivity"
+246-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:203:13-69
+247            android:screenOrientation="portrait"
+247-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:204:13-49
+248            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+248-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:205:13-72
+249        <!-- Oauth QQ end -->
+250
+251
+252        <!-- Oauth Sina start -->
+253
+254
+255        <!-- Oauth Sina end -->
+256        <!-- Oauth 授权登陆 end -->
+257
+258
+259        <!-- Speech(语音识别)-讯飞语音 begin -->
+260        <!-- 官方网站：http://open.voicecloud.cn/ -->
+261        <!-- meta-data节点android:name="IFLY_APPKEY"项中android:value值为讯飞语音云网站申请的APPKEY，由于它是和libs目录下的jar包是绑定的，不要修改此值 -->
+262        <meta-data
+262-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:219:9-221:40
+263            android:name="IFLY_APPKEY"
+263-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:220:13-39
+264            android:value="53feacdd" />
+264-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:221:13-37
+265        <!-- Speech(语音识别)-讯飞语音 end -->
+266
+267
+268        <!-- Share(分享) begin -->
+269        <!-- Share - 新浪微博分享 -->
+270        <!-- 官方网站：http://open.weibo.com/ -->
+271        <meta-data
+271-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:227:9-229:53
+272            android:name="SINA_REDIRECT_URI"
+272-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:228:13-45
+273            android:value="http://www.dcloud.io/" />
+273-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:229:13-50
+274        <meta-data
+274-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:230:9-232:64
+275            android:name="SINA_SECRET"
+275-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:231:13-39
+276            android:value="b8fa3ec4b7e47a152044d9e8265cf593" />
+276-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:232:13-61
+277        <meta-data
+277-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:233:9-235:43
+278            android:name="SINA_APPKEY"
+278-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:234:13-39
+279            android:value="_3662743235" />
+279-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:235:13-40
+280        <!-- 分享 -->
+281
+282
+283        <!-- Share - 腾讯微博分享 -->
+284        <!-- 官方网站：http://dev.t.qq.com/ -->
+285        <meta-data
+285-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:241:9-243:53
+286            android:name="TENCENT_REDIRECT_URI"
+286-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:242:13-48
+287            android:value="%腾讯微博开放平台申请应用配置的回调地址%" />
+287-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:243:13-50
+288        <meta-data
+288-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:244:9-246:53
+289            android:name="TENCENT_SECRET"
+289-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:245:13-42
+290            android:value="%腾讯微博开放平台申请应用的Secret%" />
+290-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:246:13-50
+291        <meta-data
+291-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:247:9-249:65
+292            android:name="TENCENT_APPKEY"
+292-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:248:13-42
+293            android:value="_%腾讯微博开放平台申请应用的Appkey，注意前面要添加下划线%" />
+293-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:249:13-62
+294
+295        <activity
+295-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:251:9-253:72
+296            android:name="io.dcloud.share.tencent.WebAuthorize"
+296-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:252:13-64
+297            android:theme="@android:style/Theme.NoTitleBar" />
+297-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:253:13-60
+298        <!-- 微信分享 配置begin -->
+299        <meta-data
+299-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:255:9-257:64
+300            android:name="WX_SECRET"
+300-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:256:13-37
+301            android:value="fdc6251421d3d688a563b4f00dd540e7" />
+301-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:257:13-61
+302        <meta-data
+302-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:258:9-260:50
+303            android:name="WX_APPID"
+303-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:259:13-36
+304            android:value="wx0411fa6a39d61297" />
+304-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:260:13-47
+305
+306        <activity
+306-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:262:9-274:20
+307            android:name="io.dcloud.HelloH5.wxapi.WXEntryActivity"
+307-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:263:13-50
+308            android:exported="true"
+308-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:264:13-36
+309            android:label="@string/app_name"
+309-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:265:13-45
+310            android:launchMode="singleTop" >
+310-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:266:13-43
+311            <intent-filter>
+311-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:267:13-273:29
+312                <action android:name="android.intent.action.VIEW" />
+312-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:17-69
+312-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:25-66
+313
+314                <category android:name="android.intent.category.DEFAULT" />
+314-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:17-76
+314-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:27-73
+315
+316                <data android:scheme="wx0411fa6a39d61297" />
+316-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:17-53
+316-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:23-50
+317            </intent-filter>
+318        </activity>
+319        <!-- 微信分享 配置 end -->
+320
+321
+322        <!-- 微信支付配置 start -->
+323        <activity
+323-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:278:9-281:46
+324            android:name="io.dcloud.HelloH5.wxapi.WXPayEntryActivity"
+324-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:279:13-53
+325            android:exported="true"
+325-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:280:13-36
+326            android:launchMode="singleTop" />
+326-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:281:13-43
+327
+328        <meta-data
+328-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:258:9-260:50
+329            android:name="WX_APPID"
+329-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:259:13-36
+330            android:value="wx0411fa6a39d61297" />
+330-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:260:13-47
+331
+332        <!-- 微信支付配置end -->
+333        <!-- 小米分享 -->
+334        <meta-data
+334-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:289:9-291:45
+335            android:name="MIUI_APPID"
+335-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:290:13-38
+336            android:value="_%小米分享的APPID%" />
+336-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:291:13-42
+337        <meta-data
+337-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:292:9-294:48
+338            android:name="MIUI_APPSECRET"
+338-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:293:13-42
+339            android:value="%小米分享的appSecret%" />
+339-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:294:13-45
+340        <meta-data
+340-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:295:9-297:43
+341            android:name="MIUI_REDIRECT_URI"
+341-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:296:13-45
+342            android:value="%小米分享的回调地址%" />
+342-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:297:13-40
+343
+344        <activity android:name="com.xiaomi.account.openauth.AuthorizeActivity" />
+344-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:299:9-82
+344-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:299:19-79
+345        <!-- 小米分享 end -->
+346        <!--
+347        Dcloud 开屏广告配置>
+348        <meta-data android:name="DCLOUD_STREAMAPP_CHANNEL" android:value="io.dcloud.H57BCF8D2|H57BCF8D2|12331280401"></meta-data>
+349        <meta-data android:name="DCLOUD_AD_ID" android:value="-553621487"></meta-data>
+350        <meta-data android:name="DCLOUD_AD_SPLASH" android:value="true"></meta-data>
+351        < Dcloud 开屏广告配置
+352        -->
+353        <!-- 百度语音识别 start -->
+354        <meta-data
+354-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:307:9-85
+355            android:name="com.baidu.speech.APP_ID"
+355-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:307:20-58
+356            android:value="11770490" />
+356-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:307:59-83
+357        <meta-data
+357-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:308:9-102
+358            android:name="com.baidu.speech.API_KEY"
+358-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:308:20-59
+359            android:value="cDFRHjbhBklzS1ZKFBnz9cHg" />
+359-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:308:60-100
+360        <meta-data
+360-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:309:9-113
+361            android:name="com.baidu.speech.SECRET_KEY"
+361-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:309:20-62
+362            android:value="vZK4rC7ueQTMrhavm3qVlnGicPTeUCEr" />
+362-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:309:63-111
+363
+364        <service
+364-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:310:9-101
+365            android:name="com.baidu.speech.VoiceRecognitionService"
+365-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:310:18-73
+366            android:exported="false" />
+366-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:310:74-98
+367        <!-- 百度语音识别 end -->
+368
+369        <activity
+369-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:313:9-337:20
+370            android:name="io.dcloud.PandoraEntryActivity"
+370-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:314:13-58
+371            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+371-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:316:13-101
+372            android:hardwareAccelerated="true"
+372-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:317:13-47
+373            android:launchMode="singleTask"
+373-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:315:13-44
+374            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+374-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:318:13-89
+375            android:screenOrientation="user"
+375-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:319:13-45
+376            android:theme="@style/DCloudTheme"
+376-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:320:13-47
+377            android:windowSoftInputMode="adjustResize" >
+377-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:321:13-55
+378            <intent-filter>
+378-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:323:13-336:29
+379                <category android:name="android.intent.category.DEFAULT" />
+379-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:17-76
+379-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:27-73
+380                <category android:name="android.intent.category.BROWSABLE" />
+380-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:197:17-78
+380-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:197:27-75
+381
+382                <action android:name="android.intent.action.VIEW" />
+382-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:17-69
+382-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:25-66
+383
+384                <data android:scheme="h56131bcf" />
+384-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:17-53
+384-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:23-50
+385            </intent-filter>
+386        </activity>
+387
+388        <meta-data
+388-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:338:9-340:64
+389            android:name="dcloud_appkey"
+389-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:339:13-41
+390            android:value="3a767a61a05f577b898e4d0d9940bfb0" />
+390-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:340:13-61
+391
+392        <service
+392-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:168:9-170:40
+393            android:name="io.dcloud.common.adapter.io.MiniServerService"
+393-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:169:13-73
+394            android:exported="false" />
+394-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:170:13-37
+395
+396        <receiver
+396-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:172:9-178:20
+397            android:name="io.dcloud.common.adapter.io.PushReceiver"
+397-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:173:13-68
+398            android:exported="false" >
+398-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:174:13-37
+399            <intent-filter>
+399-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:175:13-177:29
+400                <action android:name="dcloud.push.broswer" />
+400-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:176:17-62
+400-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:176:25-59
+401            </intent-filter>
+402        </receiver>
+403
+404        <activity
+404-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:180:9-183:40
+405            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+405-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:181:13-69
+406            android:exported="false"
+406-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:182:13-37
+407            android:noHistory="true" />
+407-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:183:13-37
+408        <activity
+408-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:184:9-188:58
+409            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+409-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:185:13-79
+410            android:exported="false"
+410-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:186:13-37
+411            android:noHistory="false"
+411-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:187:13-38
+412            android:theme="@style/DeviceDefault.Light" />
+412-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:188:13-55
+413        <activity
+413-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:189:9-199:58
+414            android:name="io.dcloud.WebAppActivity"
+414-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:190:13-52
+415            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+415-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:191:13-92
+416            android:hardwareAccelerated="true"
+416-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:192:13-47
+417            android:icon="@drawable/dcloud_recent"
+417-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:193:13-51
+418            android:label="@string/stream_my"
+418-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:194:13-46
+419            android:launchMode="singleTask"
+419-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:195:13-44
+420            android:screenOrientation="portrait"
+420-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:196:13-49
+421            android:taskAffinity=":stream"
+421-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:197:13-43
+422            android:theme="@style/DCloudTheme"
+422-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:198:13-47
+423            android:windowSoftInputMode="adjustResize" />
+423-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:199:13-55
+424        <activity
+424-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:200:9-205:75
+425            android:name="io.dcloud.ProcessMediator"
+425-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:201:13-53
+426            android:excludeFromRecents="true"
+426-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:202:13-46
+427            android:exported="false"
+427-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:203:13-37
+428            android:launchMode="singleTop"
+428-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:204:13-43
+429            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+429-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:205:13-72
+430        <activity
+430-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:206:9-212:20
+431            android:name="io.dcloud.WebviewActivity"
+431-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:207:13-53
+432            android:exported="false"
+432-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:208:13-37
+433            android:screenOrientation="portrait"
+433-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:209:13-49
+434            android:theme="@style/ThemeNoTitleBar"
+434-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:210:13-51
+435            android:windowSoftInputMode="adjustPan" >
+435-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:211:13-52
+436        </activity>
+437
+438        <receiver
+438-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:214:9-225:20
+439            android:name="io.dcloud.common.adapter.io.DownloadReceiver"
+439-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:215:13-72
+440            android:exported="false" >
+440-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:216:13-37
+441            <intent-filter>
+441-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:217:13-219:29
+442                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+442-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:218:17-82
+442-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:218:25-79
+443            </intent-filter>
+444            <intent-filter>
+444-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:220:13-224:29
+445                <action android:name="android.intent.action.PACKAGE_ADDED" />
+445-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:221:17-78
+445-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:221:25-75
+446
+447                <data android:scheme="package" /> <!-- HERE! -->
+447-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:17-53
+447-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:23-50
+448            </intent-filter>
+449        </receiver> <!-- gallery******start -->
+450        <activity
+450-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:228:9-232:63
+451            android:name="com.dmcbig.mediapicker.PickerActivity"
+451-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:229:13-65
+452            android:configChanges="orientation|screenSize"
+452-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:230:13-59
+453            android:theme="@style/DeviceDefault.Light"
+453-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:231:13-55
+454            android:windowSoftInputMode="stateAlwaysHidden" />
+454-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:232:13-60
+455        <activity
+455-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:233:9-237:63
+456            android:name="com.dmcbig.mediapicker.PreviewActivity"
+456-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:234:13-66
+457            android:configChanges="orientation|screenSize"
+457-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:235:13-59
+458            android:theme="@style/DeviceDefault.Light"
+458-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:236:13-55
+459            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- gallery******end -->
+459-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:237:13-60
+460        <!--
+461        <provider
+462            android:name="io.dcloud.common.util.DCloud_FileProvider"
+463            android:authorities="${apk.applicationId}.dc.fileprovider"
+464            android:exported="false"
+465            android:grantUriPermissions="true">
+466            <meta-data
+467                android:name="android.support.FILE_PROVIDER_PATHS"
+468                android:resource="@xml/dcloud_file_provider" />
+469        </provider>
+470        -->
+471        <!--
+472            <meta-data
+473            android:name="DCLOUD_STREAMAPP_CHANNEL"
+474            android:value="io.dcloud.%APPID%|%APPID%|" />
+475        -->
+476        <meta-data
+476-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:258:9-260:35
+477            android:name="android.max_aspect"
+477-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:259:13-46
+478            android:value="2.4" />
+478-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:260:13-32
+479
+480        <activity
+480-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:262:9-266:63
+481            android:name="io.dcloud.feature.gallery.imageedit.IMGEditActivity"
+481-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:263:13-79
+482            android:configChanges="orientation|keyboardHidden|screenSize"
+482-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:264:13-74
+483            android:theme="@style/ImageEditTheme"
+483-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:265:13-50
+484            android:windowSoftInputMode="stateAlwaysHidden" />
+484-->[lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:266:13-60
+485
+486        <receiver
+486-->[uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:30:9-34:20
+487            android:name="com.taobao.weex.WXGlobalEventReceiver"
+487-->[uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:31:13-65
+488            android:enabled="true"
+488-->[uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:32:13-35
+489            android:exported="false" >
+489-->[uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:33:13-37
+490        </receiver>
+491
+492        <activity
+492-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:13:9-18:20
+493            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+493-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:14:13-70
+494            android:configChanges="keyboardHidden|orientation"
+494-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:15:13-63
+495            android:exported="false"
+495-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:16:13-37
+496            android:windowSoftInputMode="adjustResize" >
+496-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:17:13-55
+497        </activity>
+498        <activity
+498-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:19:9-35:20
+499            android:name="com.sina.weibo.sdk.share.WbShareResultActivity"
+499-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:20:13-74
+500            android:configChanges="orientation|screenSize|keyboardHidden"
+500-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:21:13-74
+501            android:launchMode="singleTop"
+501-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:22:13-43
+502            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+502-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:23:13-72
+503            <intent-filter>
+503-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:25:13-29:29
+504                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+504-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:26:17-92
+504-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:26:25-89
+505
+506                <category android:name="android.intent.category.DEFAULT" />
+506-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:17-76
+506-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:27-73
+507            </intent-filter>
+508            <intent-filter>
+508-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:30:13-34:29
+509                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY" />
+509-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:31:17-89
+509-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:31:25-86
+510
+511                <category android:name="android.intent.category.DEFAULT" />
+511-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:17-76
+511-->/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:27-73
+512            </intent-filter>
+513        </activity>
+514        <activity
+514-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:36:9-42:20
+515            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+515-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:37:13-73
+516            android:configChanges="orientation|screenSize|keyboardHidden"
+516-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:38:13-74
+517            android:launchMode="singleTop"
+517-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:39:13-43
+518            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+518-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:40:13-72
+519        </activity>
+520        <activity
+520-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:43:9-49:20
+521            android:name="com.sina.weibo.sdk.share.WbShareToStoryActivity"
+521-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:44:13-75
+522            android:configChanges="orientation|screenSize|keyboardHidden"
+522-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:45:13-74
+523            android:launchMode="singleTask"
+523-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:46:13-44
+524            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+524-->[openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:47:13-72
+525        </activity>
+526    </application>
+527
+528</manifest>

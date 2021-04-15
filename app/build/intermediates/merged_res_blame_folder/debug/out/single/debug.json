@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash.png.flat",
+        "source": "/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/res/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_push.png.flat",
+        "source": "/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/res/drawable-xxhdpi/push.png"
+    },
+    {
+        "merged": "/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon.png.flat",
+        "source": "/Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/res/drawable-xxhdpi/icon.png"
+    }
+]

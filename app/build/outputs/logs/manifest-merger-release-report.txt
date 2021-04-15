@@ -1,0 +1,873 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:2:1-269:12
+MERGED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:20:1-37:12
+MERGED from [android-gif-drawable-release@1.2.17.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/a91278c482f6f37ebac376586593bc69/jetified-android-gif-drawable-release@1.2.17/AndroidManifest.xml:2:1-10:12
+MERGED from [wechat-sdk-android-without-mta-6.6.5.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/6a245bc8de49561dcb3673fc112ac741/wechat-sdk-android-without-mta-6.6.5/AndroidManifest.xml:2:1-9:12
+MERGED from [payment-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd41aaa2370c05a1e8910cba679c1e49/payment-weixin-release/AndroidManifest.xml:2:1-9:12
+MERGED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:2:1-17:12
+MERGED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:2:1-13:12
+MERGED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/eab914ae2b0ae69bba8b5cdf1163eae3/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/38946188cfcbdf41308ff1e2b9b977bc/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/97119d3bfe59eb2cc9b525fcd76ec32d/fresco-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/dcbabb3b15930369dc3363a6a7153ade/jetified-animated-gif-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/0b5d80df8158f3eb9f34b2c6744b649e/glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7093625e245be2f9da059fb69635e386/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/d8652eecaec1541e3b83ea201124b443/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/ebdaba724d630547519146b185ca3ca2/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b4c6af1ae4345cab0a622f08a7523356/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/57ac94badb477ef97ca9b2d2685353fd/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/76f967ba5224a2324c7b36a6b6beb8ef/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/89face3daa86ec6e301af2545a00e819/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7cadb58b8c0c86a09731971f6307fd56/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/efd769fb970c1894bc704f9b03375891/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/99286e9264ccffbdcfeef6a898d405a9/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/c645b14cbf7400c1620284ec778917ed/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/69584d4b522a168305e2fe7e786b3c2d/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f0aa855178a708528b0b89a033e11975/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5b0bdb1141ca8e0033dd5a0f32776df1/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5a32061153c0ccb63d4c91e7462c854e/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fc8908157f84590fae13a6540fdc6246/gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b3178544db81ff2083269db8058eb1dd/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fd28601af1e62f6b2008bfcf849ab48b/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/a76aa01d89e969980164b1fd1e31c0c5/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/3c66927090c50d8cae8d532a1f537c39/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/6fc8c33e0b497e25ecd64651fccd3c8e/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd647f4fe7f1f1847c7c2a54d917be44/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/24deb7c88481bc7fd9652b157e2158d8/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/998135bdb7686494daa9579c72a212a4/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/158fb668b4a0516eb81e0ac79af18a91/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:animated-base:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/26b89f48dad406d0168d5feb61885f16/jetified-animated-base-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f6f422f9b2994c1ef00a22a623509978/animated-drawable-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/c60084c1f858c1e470223eced77ee4bf/drawee-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/4df93063103b77d9320d688659e91a51/jetified-nativeimagefilters-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/04c67320135addb3eb6665ed5b37ab6d/imagepipeline-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/d885dd67aaf67b6706026dd1b80fd870/jetified-nativeimagetranscoder-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7b019dc8e3404e645dce3aed9949ee94/imagepipeline-base-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/cf387adc8dc969ede9da5eb44ad26918/fbcore-1.13.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd2670d7110616c5d5c96b3db95013dd/jetified-soloader-0.6.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+	package
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:16:5-81
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:8:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:10:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:12:22-66
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:15:5-73
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:15:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:19:5-67
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:17:5-67
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:23:22-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:5-79
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:18:5-79
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:25:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:26:22-72
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:27:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:28:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:5-76
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:62:22-73
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:70:5-79
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:70:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:72:5-80
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:72:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:80:5-71
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:80:22-68
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:83:5-79
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:83:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:91:5-81
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:91:22-78
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:92:5-79
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:92:22-76
+uses-permission#com.xiaomi.permission.AUTH_SERVICE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:96:5-74
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:96:22-71
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:101:5-74
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:101:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:102:5-68
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:102:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:105:5-68
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:105:22-65
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:107:5-72
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:107:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:110:5-73
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:110:22-70
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:112:5-71
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:112:22-68
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:114:5-67
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:114:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:118:5-68
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:118:22-65
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:119:5-67
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:119:22-64
+application
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:121:5-341:19
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:164:5-267:19
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:164:5-267:19
+MERGED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:29:5-35:19
+MERGED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:29:5-35:19
+MERGED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:12:5-50:19
+MERGED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:12:5-50:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/0b5d80df8158f3eb9f34b2c6744b649e/glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/0b5d80df8158f3eb9f34b2c6744b649e/glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5b0bdb1141ca8e0033dd5a0f32776df1/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5b0bdb1141ca8e0033dd5a0f32776df1/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fc8908157f84590fae13a6540fdc6246/gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fc8908157f84590fae13a6540fdc6246/gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd2670d7110616c5d5c96b3db95013dd/jetified-soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd2670d7110616c5d5c96b3db95013dd/jetified-soloader-0.6.0/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:166:9-35
+	android:label
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:125:9-41
+	android:allowClearUserData
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:123:9-42
+	android:debuggable
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:127:9-34
+	android:largeHeap
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:126:9-33
+	android:icon
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:124:9-38
+	android:usesCleartextTraffic
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:167:9-44
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:122:9-63
+activity#io.dcloud.PandoraEntry
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:130:9-143:20
+	android:screenOrientation
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:137:13-45
+	android:label
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:133:13-45
+	android:launchMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:134:13-44
+	android:hardwareAccelerated
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:135:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:138:13-55
+	android:configChanges
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:132:13-83
+	android:theme
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:136:13-52
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:131:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:139:13-142:29
+action#android.intent.action.MAIN
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:140:17-69
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:140:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:141:17-77
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:141:27-74
+meta-data#UMENG_APPKEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:149:9-151:56
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:151:13-53
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:150:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:152:9-154:42
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:154:13-39
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:153:13-41
+provider#io.dcloud.common.util.DCloud_FileProvider
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:157:9-165:20
+	android:grantUriPermissions
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:161:13-47
+	android:authorities
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:159:13-68
+	android:exported
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:160:13-37
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:158:13-69
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:162:13-164:64
+	android:resource
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:164:17-61
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:163:17-67
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:169:9-171:55
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:171:13-53
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:170:13-52
+service#com.baidu.location.f
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:173:9-176:40
+	android:process
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:176:13-38
+	android:enabled
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:175:13-35
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:174:13-48
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:178:9-179:63
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:179:13-61
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:178:20-57
+service#com.amap.api.location.APSService
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:180:9-68
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:180:18-65
+meta-data#QQ_APPID
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:185:9-187:42
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:187:13-39
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:186:13-36
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:189:9-201:20
+	android:launchMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:191:13-44
+	android:noHistory
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:192:13-37
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:190:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:1104455702
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:193:13-200:29
+action#android.intent.action.VIEW
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:17-69
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:194:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:17-76
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:196:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:197:17-78
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:197:27-75
+data
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:17-53
+	android:scheme
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:199:23-50
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:202:9-205:75
+	android:screenOrientation
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:204:13-49
+	android:theme
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:205:13-72
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:203:13-69
+meta-data#IFLY_APPKEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:219:9-221:40
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:221:13-37
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:220:13-39
+meta-data#SINA_REDIRECT_URI
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:227:9-229:53
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:229:13-50
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:228:13-45
+meta-data#SINA_SECRET
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:230:9-232:64
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:232:13-61
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:231:13-39
+meta-data#SINA_APPKEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:233:9-235:43
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:235:13-40
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:234:13-39
+meta-data#TENCENT_REDIRECT_URI
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:241:9-243:53
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:243:13-50
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:242:13-48
+meta-data#TENCENT_SECRET
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:244:9-246:53
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:246:13-50
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:245:13-42
+meta-data#TENCENT_APPKEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:247:9-249:65
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:249:13-62
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:248:13-42
+activity#io.dcloud.share.tencent.WebAuthorize
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:251:9-253:72
+	android:theme
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:253:13-60
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:252:13-64
+meta-data#WX_SECRET
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:255:9-257:64
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:257:13-61
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:256:13-37
+meta-data#WX_APPID
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:258:9-260:50
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:260:13-47
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:259:13-36
+activity#io.dcloud.HelloH5.wxapi.WXEntryActivity
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:262:9-274:20
+	android:label
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:265:13-45
+	android:launchMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:266:13-43
+	android:exported
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:264:13-36
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:263:13-50
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:wx0411fa6a39d61297
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:267:13-273:29
+activity#io.dcloud.HelloH5.wxapi.WXPayEntryActivity
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:278:9-281:46
+	android:launchMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:281:13-43
+	android:exported
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:280:13-36
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:279:13-53
+meta-data#MIUI_APPID
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:289:9-291:45
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:291:13-42
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:290:13-38
+meta-data#MIUI_APPSECRET
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:292:9-294:48
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:294:13-45
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:293:13-42
+meta-data#MIUI_REDIRECT_URI
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:295:9-297:43
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:297:13-40
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:296:13-45
+activity#com.xiaomi.account.openauth.AuthorizeActivity
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:299:9-82
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:299:19-79
+meta-data#com.baidu.speech.APP_ID
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:307:9-85
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:307:59-83
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:307:20-58
+meta-data#com.baidu.speech.API_KEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:308:9-102
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:308:60-100
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:308:20-59
+meta-data#com.baidu.speech.SECRET_KEY
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:309:9-113
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:309:63-111
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:309:20-62
+service#com.baidu.speech.VoiceRecognitionService
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:310:9-101
+	android:exported
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:310:74-98
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:310:18-73
+activity#io.dcloud.PandoraEntryActivity
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:313:9-337:20
+	android:screenOrientation
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:319:13-45
+	android:launchMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:315:13-44
+	android:hardwareAccelerated
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:317:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:321:13-55
+	android:permission
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:318:13-89
+	android:configChanges
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:316:13-101
+	android:theme
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:320:13-47
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:314:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:h56131bcf
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:323:13-336:29
+meta-data#dcloud_appkey
+ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:338:9-340:64
+	android:value
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:340:13-61
+	android:name
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:339:13-41
+uses-sdk
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:7:5-44
+MERGED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:7:5-44
+MERGED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:25:5-27:41
+MERGED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:25:5-27:41
+MERGED from [android-gif-drawable-release@1.2.17.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/a91278c482f6f37ebac376586593bc69/jetified-android-gif-drawable-release@1.2.17/AndroidManifest.xml:6:5-8:41
+MERGED from [android-gif-drawable-release@1.2.17.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/a91278c482f6f37ebac376586593bc69/jetified-android-gif-drawable-release@1.2.17/AndroidManifest.xml:6:5-8:41
+MERGED from [wechat-sdk-android-without-mta-6.6.5.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/6a245bc8de49561dcb3673fc112ac741/wechat-sdk-android-without-mta-6.6.5/AndroidManifest.xml:5:5-7:41
+MERGED from [wechat-sdk-android-without-mta-6.6.5.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/6a245bc8de49561dcb3673fc112ac741/wechat-sdk-android-without-mta-6.6.5/AndroidManifest.xml:5:5-7:41
+MERGED from [payment-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd41aaa2370c05a1e8910cba679c1e49/payment-weixin-release/AndroidManifest.xml:7:5-44
+MERGED from [payment-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd41aaa2370c05a1e8910cba679c1e49/payment-weixin-release/AndroidManifest.xml:7:5-44
+MERGED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:8:5-11:63
+MERGED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:8:5-11:63
+MERGED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:7:5-44
+MERGED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:7:5-44
+MERGED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:8:5-10:41
+MERGED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/eab914ae2b0ae69bba8b5cdf1163eae3/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/eab914ae2b0ae69bba8b5cdf1163eae3/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/38946188cfcbdf41308ff1e2b9b977bc/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/38946188cfcbdf41308ff1e2b9b977bc/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/97119d3bfe59eb2cc9b525fcd76ec32d/fresco-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/97119d3bfe59eb2cc9b525fcd76ec32d/fresco-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/dcbabb3b15930369dc3363a6a7153ade/jetified-animated-gif-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/dcbabb3b15930369dc3363a6a7153ade/jetified-animated-gif-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/0b5d80df8158f3eb9f34b2c6744b649e/glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/0b5d80df8158f3eb9f34b2c6744b649e/glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7093625e245be2f9da059fb69635e386/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7093625e245be2f9da059fb69635e386/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/d8652eecaec1541e3b83ea201124b443/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/d8652eecaec1541e3b83ea201124b443/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/ebdaba724d630547519146b185ca3ca2/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/ebdaba724d630547519146b185ca3ca2/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b4c6af1ae4345cab0a622f08a7523356/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b4c6af1ae4345cab0a622f08a7523356/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/57ac94badb477ef97ca9b2d2685353fd/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/57ac94badb477ef97ca9b2d2685353fd/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/76f967ba5224a2324c7b36a6b6beb8ef/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/76f967ba5224a2324c7b36a6b6beb8ef/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/89face3daa86ec6e301af2545a00e819/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/89face3daa86ec6e301af2545a00e819/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7cadb58b8c0c86a09731971f6307fd56/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7cadb58b8c0c86a09731971f6307fd56/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/efd769fb970c1894bc704f9b03375891/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/efd769fb970c1894bc704f9b03375891/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/99286e9264ccffbdcfeef6a898d405a9/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/99286e9264ccffbdcfeef6a898d405a9/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/c645b14cbf7400c1620284ec778917ed/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/c645b14cbf7400c1620284ec778917ed/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/69584d4b522a168305e2fe7e786b3c2d/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/69584d4b522a168305e2fe7e786b3c2d/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f0aa855178a708528b0b89a033e11975/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f0aa855178a708528b0b89a033e11975/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/06f6df44c76c4a181cad1895980d5a87/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5b0bdb1141ca8e0033dd5a0f32776df1/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5b0bdb1141ca8e0033dd5a0f32776df1/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5a32061153c0ccb63d4c91e7462c854e/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/5a32061153c0ccb63d4c91e7462c854e/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fc8908157f84590fae13a6540fdc6246/gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fc8908157f84590fae13a6540fdc6246/gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b3178544db81ff2083269db8058eb1dd/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b3178544db81ff2083269db8058eb1dd/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fd28601af1e62f6b2008bfcf849ab48b/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/fd28601af1e62f6b2008bfcf849ab48b/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/a76aa01d89e969980164b1fd1e31c0c5/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/a76aa01d89e969980164b1fd1e31c0c5/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/3c66927090c50d8cae8d532a1f537c39/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/3c66927090c50d8cae8d532a1f537c39/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/6fc8c33e0b497e25ecd64651fccd3c8e/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/6fc8c33e0b497e25ecd64651fccd3c8e/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd647f4fe7f1f1847c7c2a54d917be44/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd647f4fe7f1f1847c7c2a54d917be44/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/24deb7c88481bc7fd9652b157e2158d8/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/24deb7c88481bc7fd9652b157e2158d8/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/998135bdb7686494daa9579c72a212a4/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/998135bdb7686494daa9579c72a212a4/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/158fb668b4a0516eb81e0ac79af18a91/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/158fb668b4a0516eb81e0ac79af18a91/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:animated-base:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/26b89f48dad406d0168d5feb61885f16/jetified-animated-base-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/26b89f48dad406d0168d5feb61885f16/jetified-animated-base-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f6f422f9b2994c1ef00a22a623509978/animated-drawable-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f6f422f9b2994c1ef00a22a623509978/animated-drawable-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/c60084c1f858c1e470223eced77ee4bf/drawee-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/c60084c1f858c1e470223eced77ee4bf/drawee-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/4df93063103b77d9320d688659e91a51/jetified-nativeimagefilters-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/4df93063103b77d9320d688659e91a51/jetified-nativeimagefilters-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/04c67320135addb3eb6665ed5b37ab6d/imagepipeline-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/04c67320135addb3eb6665ed5b37ab6d/imagepipeline-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/d885dd67aaf67b6706026dd1b80fd870/jetified-nativeimagetranscoder-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/d885dd67aaf67b6706026dd1b80fd870/jetified-nativeimagetranscoder-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7b019dc8e3404e645dce3aed9949ee94/imagepipeline-base-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/7b019dc8e3404e645dce3aed9949ee94/imagepipeline-base-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/cf387adc8dc969ede9da5eb44ad26918/fbcore-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.13.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/cf387adc8dc969ede9da5eb44ad26918/fbcore-1.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd2670d7110616c5d5c96b3db95013dd/jetified-soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/bd2670d7110616c5d5c96b3db95013dd/jetified-soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:11:9-60
+	android:targetSdkVersion
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:9:5-14:39
+	android:largeScreens
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:11:9-36
+	android:smallScreens
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:14:9-36
+	android:normalScreens
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:12:9-37
+	android:resizeable
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:13:9-34
+	android:anyDensity
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:10:9-34
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:24:5-91
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:24:22-88
+uses-permission#com.vivo.notification.permission.BADGE_ICON
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:26:5-83
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:26:22-80
+queries
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:28:5-32:15
+MERGED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:9:5-11:15
+MERGED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:9:5-11:15
+intent#action:name:android.intent.action.MAIN
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:29:9-31:18
+service#io.dcloud.common.adapter.io.MiniServerService
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:168:9-170:40
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:170:13-37
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:169:13-73
+receiver#io.dcloud.common.adapter.io.PushReceiver
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:172:9-178:20
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:174:13-37
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:173:13-68
+intent-filter#action:name:dcloud.push.broswer
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:175:13-177:29
+action#dcloud.push.broswer
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:176:17-62
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:176:25-59
+activity#io.dcloud.imagepick.CustomGalleryActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:180:9-183:40
+	android:noHistory
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:183:13-37
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:182:13-37
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:181:13-69
+activity#io.dcloud.feature.nativeObj.photoview.PhotoActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:184:9-188:58
+	android:noHistory
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:187:13-38
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:186:13-37
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:188:13-55
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:185:13-79
+activity#io.dcloud.WebAppActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:189:9-199:58
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:196:13-49
+	android:label
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:194:13-46
+	android:launchMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:195:13-44
+	android:hardwareAccelerated
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:192:13-47
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:199:13-55
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:191:13-92
+	android:icon
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:193:13-51
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:198:13-47
+	android:taskAffinity
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:197:13-43
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:190:13-52
+activity#io.dcloud.ProcessMediator
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:200:9-205:75
+	android:excludeFromRecents
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:202:13-46
+	android:launchMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:204:13-43
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:203:13-37
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:205:13-72
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:201:13-53
+activity#io.dcloud.WebviewActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:206:9-212:20
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:209:13-49
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:211:13-52
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:208:13-37
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:210:13-51
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:207:13-53
+receiver#io.dcloud.common.adapter.io.DownloadReceiver
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:214:9-225:20
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:216:13-37
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:215:13-72
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:217:13-219:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:218:17-82
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:218:25-79
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+data:scheme:package
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:220:13-224:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:221:17-78
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:221:25-75
+activity#com.dmcbig.mediapicker.PickerActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:228:9-232:63
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:232:13-60
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:230:13-59
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:231:13-55
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:229:13-65
+activity#com.dmcbig.mediapicker.PreviewActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:233:9-237:63
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:237:13-60
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:235:13-59
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:236:13-55
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:234:13-66
+meta-data#android.max_aspect
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:258:9-260:35
+	android:value
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:260:13-32
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:259:13-46
+activity#io.dcloud.feature.gallery.imageedit.IMGEditActivity
+ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:262:9-266:63
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:266:13-60
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:264:13-74
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:265:13-50
+	android:name
+		ADDED from [lib.5plus.base-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/f01cac5216f4e4b0c1e9c3bdec765f1a/lib.5plus.base-release/AndroidManifest.xml:263:13-79
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/lifangsai/Downloads/3.1.8/Android-SDK@3.1.8.80779_20210407 2/HBuilder-HelloUniApp/app/src/main/AndroidManifest.xml:2:1-343:12 reason: io.dcloud.base requested WRITE_EXTERNAL_STORAGE
+receiver#com.taobao.weex.WXGlobalEventReceiver
+ADDED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [uniapp-v8-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/197a87817dab7ce10a2d799303abb465/uniapp-v8-release/AndroidManifest.xml:31:13-65
+uses-permission#com.asus.msa.SupplementaryDID.ACCESS
+ADDED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:13:22-73
+uses-permission#freemme.permission.msa
+ADDED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:15:5-62
+	android:name
+		ADDED from [oaid_sdk_1.0.25.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/2acda4ae0d4f16b0f28b975a3c3789c4/oaid_sdk_1.0.25/AndroidManifest.xml:15:22-59
+package#com.tencent.mm
+ADDED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:10:9-50
+	android:name
+		ADDED from [oauth-weixin-release.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/afb7435053d707e33f0297851f4bf6aa/oauth-weixin-release/AndroidManifest.xml:10:18-47
+activity#com.sina.weibo.sdk.web.WeiboSdkWebActivity
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:13:9-18:20
+	android:windowSoftInputMode
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:17:13-55
+	android:exported
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:16:13-37
+	android:configChanges
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:15:13-63
+	android:name
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:14:13-70
+activity#com.sina.weibo.sdk.share.WbShareResultActivity
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:19:9-35:20
+	android:launchMode
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:22:13-43
+	android:configChanges
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:21:13-74
+	android:theme
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:23:13-72
+	tools:replace
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:24:13-42
+	android:name
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:20:13-74
+intent-filter#action:name:com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:25:13-29:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:26:17-92
+	android:name
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:26:25-89
+intent-filter#action:name:com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY+category:name:android.intent.category.DEFAULT
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:30:13-34:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:31:17-89
+	android:name
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:31:25-86
+activity#com.sina.weibo.sdk.share.WbShareTransActivity
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:36:9-42:20
+	android:launchMode
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:39:13-43
+	android:configChanges
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:38:13-74
+	android:theme
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:40:13-72
+	tools:replace
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:41:13-42
+	android:name
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:37:13-73
+activity#com.sina.weibo.sdk.share.WbShareToStoryActivity
+ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:43:9-49:20
+	android:launchMode
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:46:13-44
+	android:configChanges
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:45:13-74
+	android:theme
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:47:13-72
+	tools:replace
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:48:13-42
+	android:name
+		ADDED from [openDefault-4.4.1.aar] /Users/lifangsai/.gradle/caches/transforms-2/files-2.1/b2c6eb4401837066bde4e3c1ca736049/openDefault-4.4.1/AndroidManifest.xml:44:13-75
